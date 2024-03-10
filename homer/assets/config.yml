@@ -1,0 +1,62 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "Immity的导航页"
+subtitle: "Powered by Homer"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Set the default layout and color scheme
+defaults:
+  layout: list # Either 'columns', or 'list'
+  colorTheme: light # One of 'auto', 'light', or 'dark'
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/immity"
+    target: "_blank" # optional html a tag target attribute
+
+  - name: "个人博客"
+    icon: "fas fa-blog"
+    url: "https://www.immity.top"
+    target: "_blank" # optional html a tag target attribute
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "盒子"
+    icon: "fas fa-cloud"
+    items:
+      - name: "qBittorrent v4.4.5"
+        logo: "assets/tools/qbittorrent.ico"
+        url: "https://www.233137.xyz/qb"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "文件管理"
+        logo: "assets/tools/alist.ico"
+        url: "https://www.233137.xyz/alist"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "本地"
+    icon: "fas fa-home"
+    items:
+      - name: "qBittorrent v4.4.5"
+        logo: "assets/tools/qbittorrent.ico"
+        url: "http://192.168.2.172:2021"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "文件管理"
+        logo: "assets/tools/alist.ico"
+        url: "http://192.168.2.172:5244"
+        target: "_blank" # optional html a tag target attribute
