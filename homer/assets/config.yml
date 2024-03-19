@@ -35,19 +35,6 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "盒子"
-    icon: "fas fa-cloud"
-    items:
-      - name: "qBittorrent v4.4.5"
-        logo: "assets/tools/qbittorrent.ico"
-        url: "https://www.233137.xyz/qb"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "文件管理"
-        logo: "assets/tools/alist.ico"
-        url: "https://www.233137.xyz/alist"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "本地"
     icon: "fas fa-home"
     items:
@@ -59,4 +46,17 @@ services:
       - name: "文件管理"
         logo: "assets/tools/alist.ico"
         url: "http://192.168.2.172:5244"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "盒子"
+    icon: "fas fa-cloud"
+    items:
+      - name: "qBittorrent v4.4.5"
+        logo: "assets/tools/qbittorrent.ico"
+        url: "https://www.233137.xyz/qb"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "文件管理"
+        logo: "assets/tools/alist.ico"
+        url: "https://www.233137.xyz/alist"
         target: "_blank" # optional html a tag target attribute
